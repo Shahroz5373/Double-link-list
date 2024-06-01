@@ -12,7 +12,7 @@ struct Node {
 		previous = nullptr;
 	}
 
-	//default constructor
+	//parameterized constructor
 	Node(const int&_data) {
 		data = _data;
 		next = nullptr;
